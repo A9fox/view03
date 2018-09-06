@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>html</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="m-nav">
+	<ul class="m-gender clear">
+		<li><a href="#">Мужская</a></li>
+		<li><a href="#" class="gender-btn-active">Женская</a></li>
+	</ul>
+	<ul>
+		<li><a href="#">Новинки</a></li>
+		<li><a href="#">Одежда</a></li>
+		<li><a href="#">Обувь</a></li>
+		<li><a href="#">Аксессуары</a></li>
+		<li><a href="#">Спортивная Одежда</a></li>
+		<li><a href="#">Бренды</a></li>
+	</ul>
+	<ul class="clear m-middle-nav">
+		<li><a href="#">О компании</a></li>
+		<li><a href="">Доставка и оплата</a></li>
+		<li><a href="">Наш магазин</a></li>
+		<li><a href="">Кредит</a></li>
+	</ul>
+	<ul>
+		<li class="close-nav"><i class="fas fa-times"></i>Закрыть</li>
+	</ul>
+</div>
+<div class="hover"></div>
+
+	<!-- HEADER -->
+<header class="main-header">
+	<div class="top-header">
+		<div class="container clear">
+			<p class="work">Режим работы: Пн - Пт 9:00 - 19:00</p>
+			<a href="#" class="letter"><i class="fas fa-envelope"></i>Напишите нам</a>
+			<p class="phone"><i class="fas fa-phone"></i>+7 (980) 955-17-91</p>
+		</div>
+	</div>
+	<div class="middle-header">
+		<div class="container clear">
+			<div class="logo">
+				<a href="#"><img src="img/logo.png" alt=""></a>
+			</div>
+			<div class="gender">
+				<a href="#">Мужская</a>
+				<a href="#" class="gender-btn-active">Женская</a>
+			</div>
+			<nav class="middle-nav clear">
+				<ul class="clear">
+					<li><a href="#">О компании</a></li>
+					<li><a href="">Доставка и оплата</a></li>
+					<li><a href="">Наш магазин</a></li>
+					<li><a href="">Кредит</a></li>
+				</ul>
+			</nav>
+			<div class="direction">
+				<a href="#" class="user"><i class="fas fa-user"></i></a>
+				<a href="#" class="basket"><i class="fas fa-shopping-cart"></i></a>
+			</div>
+		</div>
+	</div>
+	<div class="bottom-header">
+		<div class="container clear">
+			<div class="m-menu m-nav-btn"><i class="fas fa-bars"></i></div>
+			<nav class="bottom-nav">
+				<ul class="clear">
+					<li><a href="#">Новинки</a></li>
+					<li><a href="#">Одежда</a></li>
+					<li><a href="#">Обувь</a></li>
+					<li><a href="#">Аксессуары</a></li>
+					<li><a href="#">Спортивная Одежда</a></li>
+					<li><a href="#">Бренды</a></li>
+				</ul>
+			</nav>
+			<form action="" method="" class="form-search clear">
+				<input type="text" name="search">
+				<button class="submit" type="submit">
+					<i class="fas fa-search"></i>
+				</button>
+			</form>
+		</div>
+	</div>
+</header>
+<!-- MAIN -->
+<main class="products">
+	<div class="container">
+		<h2>Каталог / <span class="point">Одежда</span></h2>
+		<div class="sort clear">
+			<div class="sort-block">
+				<ul>
+					<li class="btn-sort"><a href="#">Бренд</a>
+						<i class="fas fa-angle-down arrow-sort"></i>
+						<ul class="list">
+							<li><a href="#">Air Robon</a></li>
+							<li><a href="#">Sub-Element 2</a></li>
+							<li><a href="#">Sub-Element 3</a></li>
+							<li><a href="#">Sub-Element 4</a></li>
+							<li><a href="#">Sub-Element 5</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="sort-block">
+				<div class="price-range">
+					<span class="price-text">ЦЕНА</span>
+					<input type="range" min="0" max="30000" value="0">
+					<input type="range" min="0" max="30000" value="30000" name="hide">
+					<div class="price min-range">0 руб</div>
+					<div class="price max-range">30000 руб</div>
+				</div>
+			</div>
+			<div class="sort-block">
+				<ul>
+					<li class="btn-sort"><a href="#">Размер</a>
+						<i class="fas fa-angle-down arrow-sort"></i>
+						<ul class="list">
+							<li><a href="#">Air Robon</a></li>
+							<li><a href="#">Sub-Element 2</a></li>
+							<li><a href="#">Sub-Element 3</a></li>
+							<li><a href="#">Sub-Element 4</a></li>
+							<li><a href="#">Sub-Element 5</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="sort-block">
+				<ul>
+					<li class="btn-sort"><a href="#">Цвет</a>
+						<i class="fas fa-angle-down arrow-sort"></i>
+						<ul class="list">
+							<li><a href="#">Air Robon</a></li>
+							<li><a href="#">Sub-Element 2</a></li>
+							<li><a href="#">Sub-Element 3</a></li>
+							<li><a href="#">Sub-Element 4</a></li>
+							<li><a href="#">Sub-Element 5</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="product-cards clear">
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/1.jpg" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Кофта Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Кофты</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/2.png" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Кофта Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Кофты</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/3.png" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Кофта Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Кофты</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/4.png" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Кофта Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Кофты</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/5.png" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Футболка Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Футболки</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/6.png" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Рубашка Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Рубашки</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/7.png" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Рубашка Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Рубашки</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/8.png" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Футболка Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Футболки</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/9.png" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Кардиган Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Кардиганы</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/10.png" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Кофта Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Кофты</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/11.png" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Блузка Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Блузки</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-top">
+					<a href="#" class="preview">
+						<span class="inner-preview">
+							<i class="fas fa-search"></i>
+							Просмотр
+						</span>
+					</a>
+					<img src="img/products/12.png" alt="#">
+				</div>
+				<div class="card-bottom">
+					<div class="product-name">Футблока Air Robon</div>
+					<div class="tag"><i class="fas fa-tag"></i>Футболки</div>
+					<div class="stars">
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star"></i>
+						<i class="fas fa-star active-star" ></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<div class="product-price">-. 23 500 руб</div>
+				</div>
+			</div>
+		</div>
+		<ul class="pagination clear">
+			<li><a href="#" class="pagination-active">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#">6</a></li>
+			<li class="arrow-next"><a href="#"><i class="fas fa-angle-right"></i></a></li>
+		</ul>
+	</div>
+</main>
+	<!-- FOOTER -->
+<div class="footer">
+	<div class="container">
+		<div class="top-footer clear">
+			<div class="top-footer-info help-footer">
+				<h4 class="heading-footer">Помощь и информация</h4>
+				<nav class="footer-nav">
+					<ul class="clear">
+						<li><a href="#">Помощь</a></li>
+						<li><a href="#">Правила продажи</a></li>
+						<li><a href="#">Отследить заказ</a></li>
+						<li><a href="#">Как сделать заказ</a></li>
+						<li><a href="#">Возврат средств</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="top-footer-info about-footer">
+				<h4 class="heading-footer">О нас</h4>
+				<nav class="footer-nav">
+					<ul class="clear">
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Скидки</a></li>
+						<li><a href="#">Вакансии</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Сертификаты</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="social">
+				<h4 class="heading-footer">Связаться с нами</h4>
+				<ul class="clear">
+					<li><a href="#"><img src="img/social/vk.png" alt=""></a></li>
+					<li><a href="#"><img src="img/social/facebook.png" alt=""></a></li>
+					<li><a href="#"><img src="img/social/twitter.png" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="middle-footer">
+			<ul class="clear">
+				<li><a href="#" class="clear"><img src="img/footer-btn/1.png" alt=""><span class="text-btn">Партнерам</span></a></li>
+				<li><a href="#" class="clear"><img src="img/footer-btn/2.png" alt=""><span class="text-btn">Мобильное приложение</span></a></li>
+				<li><a href="#" class="clear"><img src="img/footer-btn/3.png" alt=""><span class="text-btn">Пункты самовывоза</span></a></li>
+				<li><a href="#" class="clear"><img src="img/footer-btn/4.png" alt=""><span class="text-btn">Журнал</span></a></li>
+			</ul>
+		</div>
+		<div class="bottom-footer clear">
+			<p class="copyright">
+				2011-2018 © Eva.ru — модный интернет-магазин одежды, обуви и аксессуаров.<br>Все права защищены. Доставка по всей России!
+			</p>
+			<div class="footer-pay clear">
+				<p>Мы принимаем к оплате</p>
+				<ul class="clear">
+					<li><img src="img/pay/paypal.png" alt=""></li>
+					<li><img src="img/pay/visa.png" alt=""></li>
+					<li><img src="img/pay/mastercard.png" alt=""></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<!-- <script src="js/nativemultiple.jquery.min.js"></script> -->
+	<script src="js/main.js"></script>
+	<script src="js/range.js"></script>
+</body>
+</html>
